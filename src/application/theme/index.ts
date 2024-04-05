@@ -4,6 +4,15 @@ export const theme = {
     alternate: "'Source Serif 4', serif",
   },
   color: {
+    background: {
+      default: "#F8F9F9",
+      paper: "#FFFFFF",
+    },
+    divider: "#F0F0F0",
+    text: {
+      default: "#33384F",
+      secondary: "#616B77",
+    },
     tranparent: "transparent",
     light: {
       default: "white",
@@ -45,5 +54,11 @@ export const theme = {
     black: {
       default: "#000",
     },
+  },
+  breakpoints: {
+    mobile: "768px",
+    tablet: "1024px",
+    desktop: "1200px",
+    largeDesktop: "1536px",
   },
 };
